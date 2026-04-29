@@ -14,11 +14,17 @@
         <p class="eyebrow">Daily AI Blog</p>
         <h1>Short thoughts on AI, every day.</h1>
       </div>
-      <nav class="site-nav">
-        <a href="#latest">Latest</a>
-        <a href="#archive">Archive</a>
-        <a href="#about">About</a>
-      </nav>
+      <div class="nav-search">
+        <nav class="site-nav">
+          <a href="#latest">Latest</a>
+          <a href="#archive">Archive</a>
+          <a href="#about">About</a>
+        </nav>
+        <form class="search-form">
+          <input type="search" placeholder="Search posts..." aria-label="Search">
+          <button type="submit">🔍</button>
+        </form>
+      </div>
     </div>
   </header>
 
@@ -29,7 +35,14 @@
       <p>Explore the latest ideas, ethical questions, and practical tips from a daily AI journal designed for curious readers.</p>
       <a class="button" href="#archive">Browse posts</a>
     </section>
-
+    <section class="filters-section container">
+      <div class="filters">
+        <button class="filter-btn active" data-category="all">All Posts</button>
+        <button class="filter-btn" data-category="education">AI in Education</button>
+        <button class="filter-btn" data-category="models">Generative Models</button>
+        <button class="filter-btn" data-category="ethics">AI Ethics</button>
+      </div>
+    </section>
     <section class="post-feed container">
       <article class="post-card">
         <div class="post-tag">AI in education</div>

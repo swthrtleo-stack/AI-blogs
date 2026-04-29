@@ -1,0 +1,17 @@
+[33mcommit 60d2758a1de5e73489c3af368fcc6cd023f95aeb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature-header[m[33m)[m
+Author: Suneet <swthrtleo@gmail.com>
+Date:   Wed Apr 29 10:50:18 2026 +0530
+
+    Add search bar and category filters to header and post feed
+
+[33mcommit 0b7bd6c1bf4a364e96a31bd1512376cf88d2904d[m
+Author: Suneet <swthrtleo@gmail.com>
+Date:   Wed Apr 29 10:46:46 2026 +0530
+
+    Update header with logo for feature-header branch
+
+[33mcommit b3b7b8776958257cfe3f8fa126fae9dff53d8534[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Suneet <swthrtleo@gmail.com>
+Date:   Wed Apr 29 10:22:36 2026 +0530
+
+    initial commit added index and style files
